@@ -17,7 +17,7 @@
         "server": "[ -d node_modules ] || npm install && python setup.py --quiet build && PYTHONPATH=./dist/lib python -c 'import netron; netron.main()' $@"
     },
     "dependencies": {
-        "d3": "6.1.0",
+        "d3": "7.0.0",
         "dagre": "0.8.5",
         "electron-updater": "4.3.4",
         "marked": "1.1.1",
@@ -25,7 +25,7 @@
         "universal-analytics": "0.4.23"
     },
     "devDependencies": {
-        "electron": "10.2.0",
+        "electron": "11.4.10",
         "electron-builder": "22.8.0",
         "electron-notarize": "1.0.0",
         "eslint": "7.7.0",
